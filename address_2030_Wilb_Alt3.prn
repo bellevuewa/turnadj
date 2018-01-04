@@ -1,0 +1,305 @@
+ INT                                                         MMa
+  #       North-South Street           East-West Street      SA  TDevice  C ADM
+--------------------------------------------------------------------------------
+   1 100th Ave                   Main Street                 CBDSignal    b 443r
+   2 102nd Ave                   Main Street                 CBDSignal    b 444
+   3 100th Ave NE                NE  8th Street              CBDSignal    b 444
+   4 102nd Ave NE                NE  8th Street              CBDSignal    b 333
+   5 Bellevue Way NE             NE 12th Street              CBDSignal    b 444
+   6 Bellevue Way NE             NE 10th Street              CBDSignal    b 444
+   7 Bellevue Way NE             NE  8th Street              CBDSignal    b 444
+   8 Bellevue Way NE             NE  4th Street              CBDSignal    b 444
+   9 Bellevue Way                Main Street                 CBDSignal    b 444
+  10 Bellevue Way SE             Kilmarnock/SE 3rd St        SB Signal    b 443r
+  11 Bellevue Way SE             SE  8th Street              SB Signal    b 453d
+  12 Bellevue Way SE             SE 10th Street              SB Signal    b 443d
+  13 108th Ave SE                Bellevue Way SE             SB Signal    b 444
+  14 112th Ave SE                Bellevue Way SE             SB Signal    b 333
+  15 106th Ave NE                NE 12th Street              CBDSignal    b 333
+  16 106th Ave NE                NE  8th Street              CBDSignal    b 444
+  17 106th Ave NE                NE  4th Street              CBDSignal    b 444
+  18 106th Ave NE                NE  2nd Street              CBDSignal    b 444
+  19 106th Ave                   Main Street                 CBDSignal    b 443r
+  20 108th Ave NE                NE 12th Street              CBDSignal    b 444
+  21 108th Ave NE                NE  8th Street              CBDSignal    b 444
+  22 108th Ave NE                NE  4th Street              CBDSignal    b 444
+  23 108th Ave NE                NE  2nd Street              CBDSignal    b 444
+  24 108th Ave                   Main Street                 CBDSignal    b 444
+  25 112th Ave NE                NE 12th Street              CBDSignal    b 444
+  26 112th Ave NE                NE  8th Street              CBDSignal    b 545
+  27 110th Ave NE                NE  8th Street              CBDSignal    b 444
+  28 Bellevue Way NE             NE  6th Street              CBDSignal p  b 333
+  29 116th Ave NE                NE 12th Street              WLBSignal    b 444
+  30 116th Ave NE                NE  8th Street              WLBSignal    b 545
+  31 Bellevue Way NE             NE  2nd Street              CBDSignal    b 444
+  32 120th Ave NE                NE 12th Street              WLBSignal    b 444
+  33 Old Bel-Red Rd              NE  8th Street              WLBSignal    b 333
+  34 124th Ave NE                Bellevue-Redmond Rd         BRNSignal    b 444
+  35 124th Ave NE                NE  8th Street              WLBSignal    b 444
+  36 112th Ave                   Main Street                 CBDSignal    b 444
+  37 130th Ave NE                Bellevue-Redmond Rd         BRNSignal    b 443d
+  38 132nd Ave NE                Bellevue-Redmond Rd         BRNSignal    b 444
+  39 140th Ave NE                NE 20th Street              BRNSignal    b 444
+  40 140th Ave NE                Bellevue-Redmond Rd         BRNSignal    b 444
+  41 140th Ave NE                NE  8th Street              WLBSignal    b 444
+  42 140th Ave                   Main Street                 SEBSignal    b 443r
+  43 140th Ave SE                SE  8th Street              SEBSignal    b 444
+  44 145th Place SE              Lake Hills Blvd             SEBSignal    b 443d
+  45 145th Place SE              SE 16th Street              SEBSignal    b 444
+  46 143rd Ave NE                NE  8th Street              WLBSignal    b 442r
+  47 148th Ave NE                NE 20th Street              BRNSignal    b 444
+  48 148th Ave NE                Bellevue-Redmond Rd         BRNSignal    b 444
+  49 148th Ave NE                NE  8th Street              XRDSignal    b 444
+  50 148th Ave                   Main Street                 SEBSignal    b 444
+  51 148th Ave SE                Lake Hills Blvd             SEBSignal    b 444
+  52 148th Ave SE                SE 16th Street              SEBSignal    b 444
+  53 148th Ave SE                SE 22nd Street              SEBSignal    b 444
+  54 145th Place SE              SE 24th Street              EGTSignal    b 443r
+  55 148th Ave SE                SE 24th Street              EGTSignal    b 443d
+  56 148th Ave SE                SE 27th Street              EGTSignal    b 333
+  57 148th Ave SE                SE 28th Street              EGTSignal    b 332r
+  58 Bellevue-Redmond Rd         NE 20th Street              BRNSignal    b 444
+  59 Bellevue-Redmond Rd         NE 24th Street              XRDSignal    b 444
+  60 156th Ave NE                Bellevue-Redmond Rd         XRDSignal    b 444
+  61 156th Ave NE                NE 24th Street              XRDSignal    b 444
+  62 156th Ave NE                Northup Way                 XRDSignal    b 444
+  63 156th Ave NE                NE  8th Street              XRDSignal    b 444
+  64 140th Ave NE                NE 24th Street              BT Signal    b 444
+  65 148th Ave SE                SE  8th Street              SEBSignal    b 443r
+  66 156th Ave NE                NE 15th Street              XRDSignal    b 442d
+  67 156th Ave NE                NE 10th Street              XRDSignal    b 442d
+  68 130th Ave NE                NE 20th Street              BRNSignal    b 444
+  69 Bellevue Way NE             NE 24th Street              NB Signal    b 444
+  70 156th Ave NE                NE 13th Street              XRDSignal    b 442d
+  71 Lk Hills Connector          SE  8th St/7th Pl           WLBSignal    b 444
+  72 112th Ave NE                NE  4th Street              CBDSignal    b 444
+  73 116th Ave                   Main Street                 WLBSignal    b 443d
+  74 Bellevue Way NE             Northup Way NE              NB Signal    b 444
+  75 164th Ave NE                NE 24th Street              NEBSignal    b 444
+  76 164th Ave NE                Northup Way                 NEBSignal    b 444
+  77 130th Ave NE                NE 24th Street              BT Flash     b 444
+  78 108th Ave NE                Northup Way NE              NB Signal    b 455
+  79 148th Ave NE                NE 40th Street              BT Signal    b 444
+  80 134th Ave NE                NE 24th Street              BT Flash     b 333
+  81 148th Ave NE                NE 24th Street              BRNSignal    b 444
+  82 Richards Rd                 Kamber Rd                   RV Signal    b 444
+  83 156th Ave                   Main Street                 SEBSignal    b 444
+  84 156th Ave SE                Lake Hills Blvd             SEBFlash     b 444
+  85 Richards Rd                 SE 32nd Street              RV Signal    b 444
+  86 156th Ave SE                SE Eastgate Way             EGTSignal    b 444
+  87 164th Ave NE                NE  8th Street              NEBSignal    b 444
+  88 124th Ave NE                Northup Way NE              BRNSignal    b 444
+  89 112th Ave SE                SE  8th Street              SB Signal    b 333
+  90 158th Ave SE                SE Eastgate Way             EGTSignal    b 333
+  91 160th Ave SE                SE Eastgate Way             EGTSignal    b 333
+  92 161st Ave SE                SE Eastgate Way             EGTSignal    b 444
+  93 Lk Washington Blvd          NE  1st/NE 10th St          NB Signal    b 555
+  94 92nd Ave NE                 NE  8th Street              NB Signal    b 444
+  95 124th Ave NE                NE 18th Place(Metro)        BRNSignal    b 332r
+  96 100th Ave NE                NE  4th Street              CBDSignal    b 443r
+  97 156th Ave SE                SE 24th St/22nd Pl          EGTStop 5W   b 555
+  98 Coal Creek Parkway          Forest Drive                FCTSignal    b 333
+  99 Somerset Blvd               SE Newport Way              FCTSignal    b 333
+ 100 92nd Ave NE                 Lk Washington Blvd          NB Flash     b 443r
+ 101 150th Ave SE                SE Eastgate Way             EGTSignal    b 444
+ 102 118th Ave SE                SE  8th Street              RV Signal    b 444
+ 103 98th Ave NE                 NE 24th Street              CLHFlash     c 442r
+ 104 SE Allen Rd                 SE Newport Way              FCTSignal    b 333
+ 105 Richards Rd                 SE Eastgate Way             RV Signal    b 444
+ 106 121st Ave SE                SE  8th Street              RV Signal    b 333
+ 107 112th Ave NE                NE  6th Street              CBDSignal    b 444
+ 108 Bellevue Way SE             P&R/112th Ave SE            SB Signal    b 443d
+ 109 108th Ave SE                SE 25th Street              SB Flash     b 333
+ 110 126th Ave NE                NE 24th Street              BT Flash     b 442r
+ 111 Northup Way                 NE  8th Street              NEBStop W    b 333
+ 112 143rd Ave SE                Lake Hills Blvd             SEBStop NS   b 442r
+ 113 118th Ave SE                Newport Key                 FCTStop W    b 332r
+ 114 116th Ave NE                Northup Way NE              BT Signal    b 333
+ 115 116th Ave NE                115th Place NE              BT Stop W    b 333
+ 116 115th Place NE              Northup Way                 BT Signal    b 333
+ 117 120th Ave NE                NE 20th Street              BRNSignal    b 333
+ 118 Northup Way                 NE 24th Street              BT Signal    b 333
+ 119 108th Ave NE                NE 24th Street              NB Stop EW   b 443r
+ 120 W Lk Sammamish Parkway      Northup Way                 NEBFlash     b 333
+ 121 140th Ave NE                NE 21st Street              BRNStop E    b 332r
+ 122 Bellevue Way SE             SE 30th Street              SB Stop EW   b 443d
+ 123 140th Ave NE                NE 40th Street              BT Flash     b 443r
+ 124 110th Ave NE                NE  6th Street              CBDStop 4W   b 443r
+ 125 111th Ave NE                NE  4th Street              CBDStop S    b 333
+ 126 108th Ave NE                NE  6th Street              CBDSignal    b 332r
+ 127 112th Ave SE                SE 15th St (Bellfield)      SB Stop EW   b 442d
+ 128 112th Ave NE                NE  2nd Street              CBDSignal    b 444
+ 129 102nd Ave NE                NE 10th Street              CBDSignal    b 444
+ 130 100th Ave NE                NE 10th Street              CBDFlash     b 443r
+ 131 116th Ave SE                SE  1st Street              WLBSignal    b 443d
+ 132 Richards Rd                 SE 30th Street              RV Signal    b 333
+ 133 150th Ave SE                SE Newport Way              NWCSignal    kc444
+ 134 Richards Rd                 Lk Hills Connector          RV Signal    b 333
+ 135 Bellevue Way SE             SE 16th Street              SB Signal    b 443r
+ 136 Bellevue Way NE             NE 30th Street              NB Signal p  b 442r
+ 137 Bellevue Way NE             NE 17th Street              NB Signal p  b 443d
+ 138 Bellevue-Redmond Rd         NE 40th Street              RDMSignal    r 444
+ 139 116th Ave NE                NE  4th Street              WLBSignal    b 333
+ 140 160th Ave NE                NE  8th Street              XRDFlash     b 442r
+ 141 100th Ave NE                NE  1st Street              CBDStop EW   b 443r
+ 142 100th Ave NE                NE  5th Street              CBDSignal    b 442r
+ 143 Coal Creek Parkway          SE 60th Street              NPHSignal    b 333
+ 144 102nd Ave NE                NE  1st Street              CBDStop EW   b 444
+ 145 102nd Ave NE                NE  4th Street              CBDSignal    b 332d
+ 146 SE Eastgate Way             SE 35th Place               EGTStop NS   b 443r
+ 147 103rd Ave                   Main Street                 CBDStop N    b 443d
+ 148 103rd Ave NE                NE  1st Street              CBDStop NS   b 333
+ 149 Bellevue Way NE             NE  1st Street              CBDStop EW   b 443d
+ 150 105th Ave                   Main Street                 CBDStop NS   b 442r
+ 151 105th Ave NE                NE  2nd Street              CBDStop NS   b 443d
+ 152 105th Ave NE                NE  4th Street              CBDStop S    b 443r
+ 153 114th Ave SE                SE  8th St (Bellfield OfficeSB Signal    b 442r
+ 154 106th Ave NE                NE 10th Street              CBDSignal    b 444
+ 155 107th Ave                   Main Street                 CBDStop NS   b 443r
+ 156 107th Ave NE                NE  2nd Street              CBDStop S    b 333
+ 157 110th Ave                   Main Street                 CBDSignal    b 443r
+ 158 110th Ave NE                NE  2nd Street              CBDSignal    b 444
+ 159 110th Ave NE                NE  4th Street              CBDSignal    b 444
+ 160 110th Ave NE                NE  9th Street              CBDStop EW   b 443r
+ 161 110th Ave NE                NE 11th Street              CBDStop E    b 333
+ 162 110th Ave NE                NE 12th Street              CBDSignal    b 333
+ 163 111th Ave NE                NE  2nd Street              CBDStop N    b 332r
+ 164 OHCM Internal Rd            NE 10th St Extension        WLBSignal    b 444
+ 165 116th Ave NE                NE 10th St Extension        WLBSignal    b 333d
+ 166 111th Ave NE                NE  9th Street              CBDUncont    b 332
+ 167 111th Ave NE                NE 11th Street              CBDUncont    b 333
+ 168 112th Ave NE                NE  3rd Street              CBDStop W    b 442r
+ 169 164th Ave                   Main Street                 SEBStop EW   b 443r
+ 170 112th Ave NE                NE 11th Street              CBDStop W    b 443d
+ 171 142nd Ave SE                SE 36th Street              EGTSignal    b 333
+ 172 164th Ave SE                Lake Hills Blvd             SEBStop 4W   b 444
+ 173 156th Ave SE                SE 16th Street              SEBFlash     b 444
+ 174 150th Ave SE                SE 38th Street              EGTSignal    b 444
+ 175 134th Ave NE                Bellevue-Redmond Rd         BRNSignal    b 444
+ 176 134th Ave NE                NE  8th Street              WLBStop N    b 333
+ 177 120th Ave NE                Old Bel-Red Rd              WLBStop N    b 443d
+ 178 132nd Ave NE                NE  8th Street              WLBStop N    b 333
+ 179 106th Ave NE                NE  6th Street              CBDSignal p  b 333
+ 180 116th Ave NE                OHMC Entrance               WLBSignal    b 443
+ 181 SE 1st St/120th Ave         Main Street                 WLBSignal    b 333
+ 182 144th Ave SE                145th Place SE              SEBStop S    b 332r
+ 183 111th Ave NE                NE 10th Street              CBDStop NS   b 444
+ 184 116th Ave SE                SE  5th Street              WLBStop E    b 443d
+ 185 136th Place NE              Northup Way                 BRNSignal    b 443d
+ 186 120th Ave NE                NE  6th Street              WLBStop W    b 333
+ 187 City Hall Driveway          Main Street                 WLBStop S    b 332d
+ 188 148th Ave NE                NE 29th Place               BT Signal    b 444
+ 189 NE 29th Place               NE 24th Street              BT Signal    b 333
+ 190 108th Ave NE                NE 10th Street              CBDSignal    b 444
+ 191 I-405 HOV Ramps		 NE  6th St                  CBDStop EW   b 333
+ 192 92nd Ave NE                 NE 24th Street              CLHFlash     c 444
+ 193 Forest Drive                SE 63rd Street              FCTStop E    c 333
+ 194 180th Ave NE                NE 24th Street              RDMStop N    kc333
+ 195 148th Ave NE                NE 36th Street              RDMSignal    r 443r
+ 196 114th Ave NE                NE  2nd Street              CBDStop N    b 333
+ 197 180th Ave NE                W Lk Sammamish Parkway      RDMStop S    kc443d
+ 198 W Lk Sammamish Parkway      NE 40th Street              RDMSignal    kc443r
+ 199 155th Ave SE                SE Newport Way              NWCStop S    kc333
+ 200 146th Ave SE                SE 36th Street              EGTStop S    b 333
+ 201 146th Ave SE                Allen Road                  NWCStop 4W   kc443r
+ 202 128th Ave SE/Newport        SE Newport Way              FCTSignal    b 444
+ 203 SE Newport Way              Coal Creek Pkwy             FCTSignal    b 333
+ 204 128th Ave SE                SE 36th Street              FCTSignal    b 434
+ 205 145th Place SE              SE 22nd Street              SEBStop E    b 333
+ 206 128th Ave SE/I-90 WB On-RampSE 32nd Street              RV Stop NW   b 343r
+ 207 128th Ave SE                SE 26th Street              RV Stop EW   b 443r
+ 208 161st Ave SE                SE 24th Street              EGTStop S    b 333
+ 209 173rd Ave NE                Northup Way                 NEBStop N    b 443d
+ 210 173rd Ave NE                NE 24th Street              RDMStop S    kc333
+ 211 124th Ave NE                NE 10th Place               BRNStop EW   b 443r
+ 212 164th Ave SE                Phantom Way                 SEBStop N    b 333
+ 213 167/168th Ave SE            SE 14th Street              SEBStop N    b 333
+ 214 Northup Way                 NE 10th Street              NEBStop E    b 332r
+ 215 92nd Ave NE                 NE 20th Street              CLHStop EW   kc444
+ 216 100th Ave NE                NE 24th Street              NB Signal    b 443d
+ 217 104th Ave SE                SE 25th Street              SB Stop EW   b 443r
+ 218 Lakemont Blvd               SE 63rd Street              NWCStop EW   b 444
+ 219 I-405 NB Ramps              SE  8th Street              RV Signal    b 355
+ 220 I-405 NB Ramps              Coal Creek Parkway          FCTSignal    b 334
+ 221 I-405 SB Ramps              Coal Creek Parkway          FCTSignal    b 334
+ 222 128th Ave SE                SE 38th Place               FCTSignal    b 444
+ 223 119th Ave SE                Coal Creek Parkway          FCTSignal    b 333
+ 224 I-405 SB Ramps              NE  4th Street              CBDSignal    b 334
+ 225 I-405 NB Ramps              NE  4th Street              WLBSignal    b 334
+ 226 I-405 SB Ramps              SE  8th Street              RV Signal    b 334
+ 227 150th Ave SE                I-90 EB Off-Ramp/SE 36th St EGTSignal    b 434
+ 228 Lakemont Blvd (SR-901)      SE Newport Way              KCoSignal    kc444
+ 229 Lakemont Blvd               Forest Drive                NWCStop W    b 333
+ 230 SE Newport Way              SE 60th Street              KCoStop W    kc333
+ 231 Bellevue-Redmond Rd         NE 30th Street              XRDStop      b 333
+ 232 Somerset Drive SE           Forest Drive                FCTStop N    b 333
+ 233 120th Ave NE                NE  8th Street              WLBSignal    b 333
+ 234 112th Ave NE                NE 10th Street              CBDSignal    b 444
+ 235 110th Ave NE                NE 10th Street              CBDSignal    b 444
+ 236 100th Ave NE                NE 20th Street              NB Stop EW   b 443r
+ 237 W Lk Sammamish Parkway      NE 24th Street              RDMStop W    kc333
+ 238 Coal Creek Parkway          SE 72nd Place               NPHSignal    kc444
+ 239 156th Ave NE                NE 40th Street              RDMSignal    r 444
+ 240 168th Ave SE/SE 24th St     SE 26th Street              EGTStop S    c 333
+ 241 W Lk Sammamish Parkway      SE 26th Street              NWCStop W    kc333
+ 242 164th Ave SE                Lakemont Blvd               NWCStop N    b 333
+ 243 Highland Drive              SE 49th Street              FCTStop E    b 333
+ 244 Highland Drive              Forest Drive                FCTStop N    b 333
+ 245 119th Ave SE                SE 60th Street              NPHFlash     b 333
+ 246 W Lk Sammamish Parkway      SE 38th Street              NWCStop W    kc333
+ 247 168th Ave SE                Lake Hills Blvd             SEBStop S    b 332r
+ 248 148th Ave SE                SE 46th Street              FCTFlash     kc333
+ 249 148th Ave NE                NE 51st Street              RDMSignal    r 443d
+ 250 SR-520 SB Ramps             NE 51st Street              RDMSignal    r 334
+ 251 SR-520 NB Ramps             NE 51st Street              RDMSignal    r 334
+ 252 132nd Ave NE                NE 20th Street              BRNSignal    b 333
+ 253 Lakemont Blvd (SR-901)      I-90 WB Ramps               NWCStop E    kc334
+ 254 Lakemont Blvd (SR-901)      W Lk Sammamish Parkway      NWCStop E    kc433d
+ 255 156th Ave NE                NE 51st Street              RDMSignal    r 444
+ 256 118th Ave SE                Main Street                 WLBStop S    b 333
+ 257 164th Ave SE                SE Newport Way              NWCFlash     kc443d
+ 258 I-405 SB Ramps              NE 10th Street              CBDSignal    0 0 0
+ 259 I-405 NB Ramps              NE 10th Street              WLBSignal    b 333 
+ 260 I-90 EB On-Ramp             SE Newport Way              KCoUncont    kc233
+ 261 W Lk Sammamish Parkway      SE 34th Street              NWCUncont    kc333
+ 262 W Lk Sammamish Parkway      SR-520 EB Off-Ramp          RDMSignal    r 333
+ 263 156th Ave NE                NE 28th Street              RDMSignal    r 442d
+ 264 156th Ave NE                NE 31st Street              RDMSignal    r 444
+ 265 148th Ave NE                Old Redmond Road            RDMSignal    r 444
+ 266 151st Ave NE                NE 24th Street              RDMSignal    r 442r
+ 267 152st Ave NE                NE 24th Street              RDMSignal    r 444
+ 268 148th Ave NE                NE 22nd Street (Sears)      BRNSignal    b 442d
+ 269 132th Ave NE                NE 16th Street              BRNStop E    b 333
+ 270 140th Ave NE                NE 18th St (Evergreen Mall) BRNSignal    b 332d
+ 271 139th Ave SE                SE 30th Street              EGTStop W    b 333
+ 272 139th Ave SE                SE Eastgate Way             EGTSignal    b 333
+ 273 SE Newport Way              Village Park Dr SE          KCoStop W    kc333
+ 274 Village Park Dr SE          Lakemont Blvd               NWCStop 3W   b 333
+ 275 W Lk Sammamish Parkway      NE 51st Street              RDMSignal    r 333
+ 276 Bellevue-Redmond Rd         W Lk Sammamish Parkway      RDMSignal    r 333
+ 277 156th Ave NE                NE 36th Street              RDMSignal    r 443d
+ 278 139th Ave SE                SE 32nd Street              EGTStop E    b 333
+ 279 148th Ave NE                SR-520 EB Off-Ramp          BRNSignal    b 213
+ 280 139th Ave SE                Kamber Road                 EGTSignal    b 433r
+ 281 124th Ave SE                SE 41st Street              FCTStop 3W   b 333
+ 282 128th Ave SE                SE 41st Street              FCTSignal    b 333
+ 283 124th Ave SE                SE 38th Street              FCTStop E    b 222
+ 284 124th Ave SE                Coal Creek Parkway          FCTSignal    b 333
+ 285 128th Ave SE                3600 Block                  FCTSignal    b 442d
+ 286 I-90 EB On-Ramp             SE 37th Street              EGTUncont    b 233
+ 287 148th Ave NE                NE 60th Street              RDMSignal    r 222
+ 288 133rd Ave NE                NE  8th Street              WLBSignal p  b 222
+ 289 136th Ave NE                Bellevue-Redmond Rd         BRNFuture    b 332r
+ 290 136th Ave NE                NE 16th Street              BRNStop EW   b 333
+ 291 132nd Ave SE                SE 36th Street              FCTSignal    kc332d
+ 292 Bel-Red Rd                  NE 15th Street              BRNSignal    Borrow
+ 293 120th Ave NE                NE 16th Street              BRNSignal    Borrow
+ 294 124th Ave NE                NE 16th Street              BRNSignal    Borrow
+ 295 120th Ave NE                NE  4th Street              WLBSignal    Borrow
+ 296 124th Ave NE                NE  5th Street              WLBSignal    Borrow
+ 297 Lakemont Blvd (SR-901)      I-90 EB Off Ramp            KCoUncont    kc323
+ 298 112th Ave SE                SE  6th Street              SB Stop E    b 333
+ 299 120th Ave NE                NE  5th Street              WLBSignal    Borrow
+ 300 W Lk Sammamish Parkway      Marymoor Park               RDMSignal    r 332d
+ 301 test 301 - 294              test 301 - 294              RDMSignal    r 332d
+ 302 test 302 - 295              test 302 - 295              RDMSignal    r 332d

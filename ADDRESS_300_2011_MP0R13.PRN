@@ -1,0 +1,303 @@
+Updated:    11/21/12
+ui3  address_2011_mp0r13.prn     Base Year: 2011                Traffic DeviYear
+IntIdNS Address                  EW Address                  MMAControl   SyYear
+   1 100th Ave                   Main St                     CBDSignal    0 2008
+   2 102nd Ave                   Main St                     CBDSignal    0 2009
+   3 100th Ave NE                NE 8th St                   CBDSignal    3 2011
+   4 102nd Ave NE                NE 8th St                   CBDSignal    0 2008
+   5 Bellevue Wy NE              NE 12th St                  CBDSignal    3 2012
+   6 Bellevue Wy NE              NE 10th St                  CBDSignal    0 2007
+   7 Bellevue Wy NE              NE 8th St                   CBDSignal    3 2012
+   8 Bellevue Wy NE              NE 4th St                   CBDSignal    3 2012
+   9 Bellevue Wy                 Main St                     CBDSignal    3 2012
+  10 Bellevue Wy SE              SE Wolverine Wy             SB Signal    0 2008
+  11 Bellevue Wy SE              SE 8th St    (5-Way)        SB Signal    0 2007
+  12 Bellevue Wy SE              SE 10th St                  SB Signal    0 2008
+  13 108th Ave SE                Bellevue Wy SE              SB Signal    0 2008
+  14 112th Ave SE                Bellevue Wy SE              SB Signal    7 2011
+  15 106th Ave NE                NE 12th St                  CBDSignal    0 2007
+  16 106th Ave NE                NE 8th St                   CBDSignal    0 2008
+  17 106th Ave NE                NE 4th St                   CBDSignal    0 2008
+  18 106th Ave NE                NE 2nd St                   CBDSignal    0 2008
+  19 106th Ave                   Main St                     CBDSignal    0 2007
+  20 108th Ave NE                NE 12th St                  CBDSignal    3 2009
+  21 108th Ave NE                NE 8th St                   CBDSignal    3 2011
+  22 108th Ave NE                NE 4th St                   CBDSignal    3 2011
+  23 108th Ave NE                NE 2nd St                   CBDSignal    0 2008
+  24 108th Ave                   Main St                     CBDSignal    3 2011
+  25 112th Ave NE                NE 12th St                  CBDSignal    3 2012
+  26 112th Ave NE                NE 8th St                   CBDSignal    3 2012
+  27 110th Ave NE                NE 8th St                   CBDSignal    0 1996
+  28 Bellevue Wy NE              NE 6th St                   CBDSignal p  0 2006
+  29 116th Ave NE                NE 12th St                  BRNSignal    **2012
+  30 116th Ave NE                NE 8th St                   WLBSignal    4 2011
+  31 Bellevue Wy NE              NE 2nd St                   CBDSignal    0 2007
+  32 120th Ave NE                NE 12th St                  BRNSignal    **2011
+  33 Old Bel-Red Rd              NE 8th St                   WLBSignal    0 2012
+  34 124th Ave NE                Bel-Red Rd                  BRNSignal    **2012
+  35 124th Ave NE                NE 8th St                   RV Signal    8 2011
+  36 112th Ave                   Main St                     CBDSignal    3 2011
+  37 130th Ave NE                Bel-Red Rd                  BRNSignal    **2011
+  38 132nd Ave NE                Bel-Red Rd                  BRNSignal    0 2008
+  39 140th Ave NE                NE 20th St                  BRNSignal    **2011
+  40 140th Ave NE                Bel-Red Rd                  BRNSignal    **2011
+  41 140th Ave NE                NE 8th St                   EB Signal    9 2011
+  42 140th Ave                   Main St                     EB Signal    9 2011
+  43 140th Ave SE                SE 8th St                   RV Signal    8 2011
+  44 145th Pl SE                 Lk Hills Blvd               RV Signal    8 2011
+  45 145th Pl SE                 SE 16th St                  RV Signal    8 2011
+  46 143rd Ave NE                NE 8th St                   WLBSignal    0 2007
+  47 148th Ave NE                NE 20th St                  BRNSignal    **2011
+  48 148th Ave NE                Bel-Red Rd                  BRNSignal    **2011
+  49 148th Ave NE                NE 8th St                   EB Signal    9 2011
+  50 148th Ave                   Main St                     EB Signal    9 2011
+  51 148th Ave SE                Lk Hills Blvd               EB Signal    9 2011
+  52 148th Ave SE                SE 16th St                  EB Signal    9 2011
+  53 148th Ave SE                SE 22nd St                  EB Signal    0 2007
+  54 145th Pl SE                 SE 24th St                  EGTSignal    0 2007
+  55 148th Ave SE                SE 24th St                  EB Signal    9 2011
+  56 148th Ave SE                Landerholm Circle           EGTSignal    **2012
+  57 148th Ave SE                SE 28th St                  EGTSignal    0 2012
+  58 Bel-Red Rd                  NE 20th St                  XRDSignal    5 2011
+  59 Bel-Red Rd                  NE 24th St                  BRNSignal    **2011
+  60 156th Ave NE                Bel-Red Rd                  BRNSignal    **2011
+  61 156th Ave NE                NE 24th St                  BRNSignal    **2011
+  62 156th Ave NE                Northup Wy                  XRDSignal    5 2011
+  63 156th Ave NE                NE 8th St                   XRDSignal    5 2011
+  64 140th Ave NE                NE 24th St                  BT Signal    2 2011
+  65 148th Ave SE                SE 8th St                   EB Signal    9 2011
+  66 156th Ave NE                NE 15th St                  XRDSignal    0 2007
+  67 156th Ave NE                NE 10th St                  XRDSignal    0 2007
+  68 130th Ave NE                Northup Wy                  BRNSignal    **2011
+  69 Bellevue Wy NE              NE 24th St                  NB Signal    1 2012
+  70 156th Ave NE                NE 13th St                  XRDSignal    0 2007
+  71 Lk Hills Connector          SE 7th Pl                   RV Signal    8 2011
+  72 112th Ave NE                NE 4th St                   CBDSignal    3 2011
+  73 116th Ave                   Main St                     WLBSignal    4 2011
+  74 Bellevue Wy NE              Northup Wy                  NB Signal    1 2012
+  75 164th Ave NE                NE 24th St                  NEBSignal    6 2011
+  76 164th Ave NE                Northup Wy                  NEBSignal    6 2011
+  77 130th Ave NE                NE 24th St                  BT Flash     0 2003
+  78 108th Ave NE                Northup Wy                  NB Signal    1 2012
+  79 148th Ave NE                NE 40th St                  BT Signal    2 2012
+  80 134th Ave NE                NE 24th St                  BT Flash     0 2002
+  81 148th Ave NE                NE 24th St                  BRNSignal    **2012
+  82 Richards Rd                 SE 26th St (Kamber Rd)      RV Signal    8 2011
+  83 156th Ave                   Main St                     EB Signal    9 2011
+  84 156th Ave SE                Lk Hills Blvd               EB Flash     0 2003
+  85 Richards Rd                 SE 32nd St                  RV Signal    8 2012
+  86 156th Ave SE                SE Eastgate Wy              EGTSignal    **2012
+  87 164th Ave NE                NE 8th St                   NEBSignal    6 2011
+  88 124th Ave NE                Northup Wy                  BRNSignal    **2011
+  89 112th Ave SE                SE 8th St                   SB Signal    7 2011
+  90 158th Ave SE                SE Eastgate Wy              EGTSignal    0 2010
+  91 160th Ave SE                SE Eastgate Wy              EGTSignal    0 2010
+  92 161st Ave SE                SE Eastgate Wy              EGTSignal    **2012
+  93 Lk Wash Blvd NE             NE 1st St    (5-Way)        NB Signal    1 2012
+  94 92nd Ave NE                 NE 8th St                   NB Signal    0 2008
+  95 124th Ave NE                NE 18th Pl                  BRNSignal    0 2007
+  96 100th Ave NE                NE 4th St                   CBDSignal    0 2007
+  97 156th Ave SE                SE 24th St    (5-Way)       EGTStop 5W   0 2003
+  98 Coal Creek Pkwy             Forest Dr                   NWCSignal    **2012
+  99 Somerset Blvd               SE Newport Wy               NWCSignal    0 1993
+ 100 92nd Ave NE                 Lk Wash Blvd                NB Flash     0 2003
+ 101 150th Ave SE                SE Eastgate Wy              EGTSignal    **2012
+ 102 118th Ave SE                SE 8th St                   SB Signal    7 2011
+ 103 98th Ave NE                 NE 24th St                  CLHFlash     0 2003
+ 104 SE Allen Rd                 SE Newport Wy               NWCSignal    0 1996
+ 105 Richards rd                 SE Eastgate Wy              FCTSignal    **2012
+ 106 121st Ave SE                SE 8th St                   RV Signal    0 2007
+ 107 112th Ave NE                NE 6th St                   CBDSignal    0 2008
+ 108 Bellevue Wy SE (NB)         112th Ave SE (P&R)          SB Signal    0 2007
+ 109 108th Ave SE                SE 25th St                  SB Flash     0 2003
+ 110 Reserved For Future Signal                            0  0 R         0    0
+ 111 Northup Wy                  NE 8th St                   NEBStop W    6 2012
+ 112 Reserved For Future Signal                            0  0 R         0    0
+ 113 Reserved For Future Signal                            0  0 R         0    0
+ 114 116th Ave NE                Northup Wy                  BT Signal    2 2011
+ 115 116th Ave NE                115th Ave NE                BT Stop W    0 1996
+ 116 115th Pl NE                 Northup Wy                  BT Signal    2 2011
+ 117 120th Ave NE                Northup Wy                  BRNSignal    **2012
+ 118 Northup Wy                  NE 24th St                  BT Signal    2 2011
+ 119 108th Ave NE                NE 24th St                  NB Stop EW   0 2003
+ 120 W Lk Samm Pkwy NE           Northup Wy                  NEBFlash     0 2008
+ 121 140th Ave NE                NE 21st St                  BRNStop E    0 2002
+ 122 Bellevue Wy SE (NB)         SE 30th St                  SB Stop EW   0 2009
+ 123 140th Ave NE                NE 40th St                  BT Flash     2 2011
+ 124 110th Ave NE                NE 6th St (Trans Cntr)      CBDStop 4W   0 2008
+ 125 111th Ave NE                NE 4th St                   CBDStop S    0 1998
+ 126 108th Ave NE                NE 6th St (Trans Cntr)      CBDSignal    0 2008
+ 127 112th Ave SE                Bellefield Drwy             SB Stop EW   0 2009
+ 128 112th Ave NE                NE 2nd St                   CBDSignal    0 2009
+ 129 102nd Ave NE                NE 10th St                  CBDSignal    0 2007
+ 130 100th Ave NE                NE 10th St                  CBDFlash     0 2003
+ 131 116th Ave SE                SE 1st St                   WLBSignal    4 2012
+ 132 Richards rd                 SE 30th St                  RV Signal    0 2007
+ 133 150th Ave SE                SE Newport Wy               NWCSignal    **2012
+ 134 Richards Rd                 Lk Hills Con                RV Signal    8 2011
+ 135 Bellevue Wy SE              SE 16th St                  SB Signal    0 2008
+ 136 Reserved For Future Signal                            0  0 R         0    0
+ 137 Bellevue Wy NE              NE 17th St                  NB Signal p  0 2002
+ 138 Bel-Red Rd                  NE 40th St                  RDMSignal    0 2012
+ 139 116th Ave NE                NE 4th St                   WLBSignal    4 2012
+ 140 160th Ave NE                NE 8th St                   XRDFlash     0 2005
+ 141 100th Ave NE                NE 1st St                   CBDStop EW   0 2001
+ 142 100th Ave NE                NE 5th St                   CBDSignal    0 2008
+ 143 Coal Creek Pkwy             SE 60th St                  NPHSignal    0 2008
+ 144 102nd Ave NE                NE 1st St                   CBDStop EW   0 2007
+ 145 102nd Ave NE                NE 4th St                   CBDSignal    0 2007
+ 146 SE Eastgate Wy              SE 35th Pl                  EGTStop NS   0 2002
+ 147 103rd Ave                   Main St                     CBDStop N    0 1990
+ 148 Reserved For Future Signal                            0  0 R         0    0
+ 149 Reserved For Future Signal                            0  0 R         0    0
+ 150 105th Ave                   Main St                     CBDStop NS   0 2003
+ 151 105th Ave NE                NE 2nd St                   CBDStop NS   0 2001
+ 152 105th Ave NE                NE 4th St                   CBDStop S    0 1996
+ 153 114th Ave SE                SE 8th St                   SB Signal    0 2008
+ 154 106th Ave NE                NE 10th St                  CBDSignal    0 2006
+ 155 107th Ave                   Main St                     CBDStop NS   0 1992
+ 156 107th Ave NE                NE 2nd St                   CBDStop S    0 2003
+ 157 110th Ave                   Main St                     CBDSignal    0 2009
+ 158 110th Ave NE                NE 2nd St                   CBDSignal    0 2007
+ 159 110th Ave NE                NE 4th St                   CBDSignal    0 2007
+ 160 Reserved For Future Signal                            0  0 R         0    0
+ 161 Reserved For Future Signal                            0  0 R         0    0
+ 162 110th Ave NE                NE 12th St                  CBDSignal    0 2008
+ 163 111th Ave NE                NE 2nd St                   CBDStop N    0 2002
+ 164 East Campus Dr              NE 10th St                  WLBSignal    0 1000
+ 165 116th Ave NE                NE 10th St                  WLBSignal    0 2009
+ 166 Reserved For Future Signal                            0  0 R         0    0
+ 167 Reserved For Future Signal                            0  0 R         0    0
+ 168 Reserved For Future Signal                            0  0 R         0    0
+ 169 164th Ave                   Main St                     EB Stop EW   0 2003
+ 170 Reserved For Future Signal                            0  0 R         0    0
+ 171 142nd Ave SE                SE 36th St                  EGTStop EW   **2012
+ 172 Reserved For Future Signal                            0  0 R         0    0
+ 173 156th Ave SE                SE 16th St                  EB Flash     0 2008
+ 174 150th Ave SE                SE 38th St                  EGTSignal    **2012
+ 175 134th Ave NE                Bel-Red Rd                  BRNSignal    0 2007
+ 176 134th Ave NE                NE 8th St                   WLBStop N    0 1994
+ 177 120th Ave NE                Old Bel-Red Rd              WLBStop N    0 2003
+ 178 132nd Ave NE                NE 8th St                   WLBStop N    0 1999
+ 179 106th Ave NE                NE 6th St                   CBDSignal p  0 2008
+ 180 116th Ave NE                Hospital Entr               WLBSignal    0 2007
+ 181 NE 1st St/SE 1st St         Main St                     WLBSignal    0 2008
+ 182 145th Pl SE                 144th Ave SE                EB Stop S    0 2007
+ 183 Reserved For Future Signal                            0  0 R         0    0
+ 184 116th Ave SE                SE 5th St                   WLBStop E    0 1999
+ 185 136th Pl NE                 Northup Wy                  BRNSignal    0 2003
+ 186 120th Ave NE                NE 6th St                   WLBStop W    0 2009
+ 187 120th Ave NE                NE 4th St                   WLBStop S    0 1000
+ 188 148th Ave NE                NE 29th Pl                  BT Signal    2 2012
+ 189 NE 29th Pl                  NE 24th St                  BT Signal    2 2012
+ 190 108th Ave NE                NE 10th St                  CBDSignal    0 2009
+ 191 I-405 HOV Ramps (SB)        NE 6th St                   CBDSignal    0 1990
+ 192 Reserved For Future Signal                            0  0 R         0    0
+ 193 Reserved For Future Signal                            0  0 R         0    0
+ 194 180th Ave NE                NE 24th St                  RDMStop N    0 2007
+ 195 148th Ave NE                NE 36th St                  RDMSignal    0 2007
+ 196 Reserved For Future Signal                            0  0 R         0    0
+ 197 180th Ave NE                W Lk Samm Pkwy              RDMStop S    0 2007
+ 198 W Lk Samm Pkwy NE           NE 40th St                  RDMSignal    0 2007
+ 199 155th Pl SE                 SE Newport Wy               NWCStop S    0 2007
+ 200 Reserved For Future Signal                            0  0 R         0    0
+ 201 Reserved For Future Signal                            0  0 R         0    0
+ 202 Factoria Blvd SE            SE Newport Wy               FCTSignal    **2012
+ 203 Factoria Blvd SE            Coal Creek Pkwy             FCTSignal    **2012
+ 204 Factoria Blvd SE            SE 36th St                  FCTSignal    **2011
+ 205 145th Pl SE                 SE 22nd St                  EB Stop E    0 2007
+ 206 128th Ave SE/I-90 WB On-rampSE 32nd St                  RV Stop NW   0 1993
+ 207 128th Ave SE                SE 26th Pl                  RV Stop EW   0 1996
+ 208 Reserved For Future Signal                            0  0 R         0    0
+ 209 Reserved For Future Signal                            0  0 R         0    0
+ 210 Reserved For Future Signal                            0  0 R         0    0
+ 211 Reserved For Future Signal                            0  0 R         0    0
+ 212 Bellevue Wy NE (SB)         SR-520 WB On-Ramp           NB Uncont    0    0
+ 213 Bellevue Wy NE (SB)         SR-520 EB Off-Ramp          NB Uncont    0    0
+ 214 108th Ave NE                SR-520 Direct Access Ramp   NB Uncont    0    0
+ 215 108th Ave NE                SR-520 EB On-Ramp           NB Uncont    0 2001
+ 216 100th Ave NE                NE 24th St                  NB Signal    0 2000
+ 217 108th Ave NE                NE 38th Pl                  NB Stop EW   0 1999
+ 218 Lakemont Blvd SE            SE 63rd St                  NWCStop EW   0 2007
+ 219 I-405 NB Ramps              SE 8th St                   SB Signal    7 2012
+ 220 I-405 NB Ramps              Coal Creek Pkwy             FCTSignal    **2012
+ 221 I-405 SB Ramps              Coal Creek Pkwy             FCTSignal    **2012
+ 222 Factoria Blvd SE            SE 38th St                  FCTSignal    **2011
+ 223 119th Ave SE                Coal Creek Pkwy             FCTSignal    0 2007
+ 224 I-405 SB Ramps              NE 4th St                   CBDSignal    0 2007
+ 225 I-405 NB Ramps              NE 4th St                   WLBSignal    0 2008
+ 226 I-405 SB Ramps              SE 8th St                   SB Signal    7 2011
+ 227 150th Ave SE                I-90 EB Off-Ramp/37th St    EGTSignal    **2012
+ 228 Lakemont Blvd SE            SE Newport Wy               NWCSignal    **2012
+ 229 Lakemont Blvd SE            Forest Dr                   NWCStop W    **2012
+ 230 Lk Wash Blvd NE             NE 38th Pl                  NB Stop W    0 1000
+ 231 Bel-Red Rd                  NE 30th St                  XRDStop      0 2005
+ 232 Somerset Dr SE              Forest Dr                   FCTStop N    0 1993
+ 233 120th Ave NE                NE 8th St                   WLBSignal    4 2012
+ 234 112th Ave NE                NE 10th St                  CBDSignal    0 2012
+ 235 110th Ave NE                NE 10th St                  CBDSignal    0 2007
+ 236 100th Ave NE                NE 20th St                  NB Stop EW   0 2003
+ 237 W Lk Samm Pkwy NE           NE 24th St                  RDMStop W    0 2001
+ 238 Coal Creek Pkwy             SE 72nd Pl                  NPHSignal    0 2004
+ 239 156th Ave NE                NE 40th St                  RDMSignal    0 2012
+ 240 168th Ave SE                SE 24th St                  EGTStop S    0 2000
+ 241 W Lk Samm Pkwy SE           SE 26th St                  NWCStop W    0 2003
+ 242 164th Ave SE                Lakemont Blvd               NWCStop N    **2012
+ 243 Highland Dr                 SE 49th St                  FCTStop E    0 2000
+ 244 Highland Dr                 Forest Dr                   FCTStop N    0 2001
+ 245 119th Ave SE                SE 60th St                  NPHFlash     0 1996
+ 246 Reserved For Future Signal                            0  0 R         0    0
+ 247 156th Ave NE                1600 Ped X-Ing              XRDStop S    0    0
+ 248 Reserved For Future Signal                            0  0 R         0    0
+ 249 148th Ave NE                NE 51st St                  RDMSignal    0 2011
+ 250 SR-520 SB Ramps             NE 51st St                  RDMSignal    0 2011
+ 251 SR-520 NB Ramps             NE 51st St                  RDMSignal    0 2011
+ 252 132nd Ave NE                NE 20th St                  BRNSignal    0 2003
+ 253 Lakemont Blvd (SR-901)      I-90 WB Ramps               NWCStop E    0 1997
+ 254 Lakemont Blvd (SR-901)      W Lk Samm Pkwy              NWCRoundabout0 1997
+ 255 156th Ave NE                NE 51st St                  RDMSignal    0 2011
+ 256 118th Ave SE                Main St                     WLBStop S    0 2000
+ 257 164th Ave SE                SE Newport Wy               NWCFlash     **2012
+ 258 SR-520 SB Off-Ramp          NE 10th St                  CBDFuture    0 1000
+ 259 SR-520 NB On-Ramp           NE 10th St                  WLBSignal    0 1000
+ 260 I-90 EB On-Ramp             SE Newport Wy               NWCUncont    0 1997
+ 261 W Lk Samm Pkwy SE           SE 34th St                  NWCUncont    0 2001
+ 262 W Lk Samm Pkwy NE           EB SR-520 Ramps             RDMSignal    0 2004
+ 263 156th Ave NE                NE 28th St                  RDMSignal    0 2006
+ 264 156th Ave NE                NE 31st St                  RDMSignal    0 2012
+ 265 148th Ave NE                Old Redmond Rd (NE 70th St) RDMSignal    0 2008
+ 266 151st Pl NE                 NE 24th St                  RDMSignal    0 2004
+ 267 152nd Ave NE                NE 24th St                  RDMSignal    0 2008
+ 268 148th Ave NE                NE 22nd St                  BRNSignal    0 2009
+ 269 132nd Ave NE                NE 16th St                  BRNStop E    0 2004
+ 270 140th Ave NE                NE 18th St (Evergreen Mall) BRNSignal    0 2007
+ 271 Reserved For Future Signal                            0  0 R         0    0
+ 272 139th Ave SE                SE Eastgate Wy              EGTSignal    **2012
+ 273 Reserved For Future Signal                            0  0 R         0    0
+ 274 Village Park Dr SE          Lakemont Blvd SE            NWCStop 3W   0 2005
+ 275 W Lk Samm Pkwy NE           NE 51st St                  RDMSignal    0 2008
+ 276 Bel-Red Rd                  W Lk Samm Pkwy              RDMSignal    0 2004
+ 277 156th Ave NE                NE 36th St                  RDMSignal    0 2007
+ 278 Reserved For Future Signal                            0  0 R         0    0
+ 279 148th Ave NE (SB)           SR-520 EB Off-Ramp          BRNSignal    0 2008
+ 280 139th Ave SE                Kamber Rd                   RV Signal    8 2012
+ 281 Reserved For Future Signal                            0  0 R         0    0
+ 282 Factoria Blvd SE            SE 41st Pl                  FCTSignal    0 2007
+ 283 Reserved For Future Signal                            0  0 R         0    0
+ 284 124th Ave SE                Coal Creek Pkwy             FCTSignal    **2011
+ 285 Factoria Blvd SE            3600 Block                  FCTSignal    0 2007
+ 286 I-90 EB On-Ramp             SE 37th St                  EGTUncont    0 2001
+ 287 148th Ave NE                NE 60th St                  RDMSignal    0 2002
+ 288 Ped X-ing near 134th        NE 8th St                   WLBSignal p  0 2002
+ 289 Reserved For Future Signal                            0  0 R         0    0
+ 290 136th Pl NE                 NE 16th St                  BRNStop EW   0 1999
+ 291 132nd Ave SE                SE 36th St                  FCTSignal    0 2007
+ 292 119th Ave SE                SE 56th St                  NWCSignal    0 2003
+ 293 112th Ave SE/Lk Wash Blvd   SE 60th St                  NWCSignal    0 2003
+ 294 112th Ave SE                SE 64th St/LK Wash Blvd     NWCSignal    0 2006
+ 295 Reserved For Future Signal                            0  0 R         0    0
+ 296 119th Ave SE                SE 48th St                  NWCSignal    0    0
+ 297 Reserved For Future Signal                            0  0 R         0    0
+ 298 112th Ave SE                SE 6th St                   SB Stop E    0 1993
+ 299 158th Ave NE                NE 8th St                   XRDSignal    0 2007
+ 300 W Lk Samm Pkwy NE           Marymoor Park Entr          RDMSignal    0 2004
