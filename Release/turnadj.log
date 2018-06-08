@@ -1,5 +1,8 @@
 ﻿  stdafx.cpp
   turnadj.cpp
   Generating code
+  44 of 44 functions (100.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  turnadj.vcxproj -> C:\Users\hdong\Documents\Hu\Postprocessing\turnadjv1.2\Release\turnadj.exe
+  turnadj.vcxproj -> C:\Users\HDong\Documents\GitHub\turnadj\Release\turnadj.exe
