@@ -82,6 +82,9 @@ void increment(int in)
 	int j;
 	double bin1, bin2;
 	double delta, frat_chk, ratio, abs_del, abs_frat;
+	int prop = 0;
+	int inflex = 0;
+	int increment = 0;
 	int oneway_flag = 0;
 	for (j = 1; j <= n_oneway; j++)
 		if (in == arr_oneway[j][0])
@@ -95,15 +98,47 @@ void increment(int in)
 		if (abs_del == 0)
 			bin1 = INFINITY;
 		else bin1 = delta / abs_del;
-		fin_inc[in][j] = base[in][j] + delta;
-		if (fin_inc[in][j]<0 || (bin1<0 && abs_del>0.8*base[in][j]))
-		{
-			inc_flag[j] = -1;
-			if (t9393[in][j] == 0)
-				ratio = INFINITY;
-			else ratio = t93fn[in][j] / t9393[in][j];
-			fin_inc[in][j] = ratio*base[in][j];
+		
+		if (base[in][j] == 0 && t9393[in][j] == 0 && t93fn[in][j] > 0)
+			fin_inc[in][j] = t93fn[in][j];
+		else if (base[in][j] == 0 && t9393[in][j] > 0 && t93fn[in][j] == 0)
+			fin_inc[in][j] = 0;
+		else if (base[in][j] == 0 && t9393[in][j] > 0 && t93fn[in][j] > 0)
+			fin_inc[in][j] = t93fn[in][j];
+		else if (base[in][j] > 0 && t9393[in][j] == 0 && t93fn[in][j] == 0)
+			fin_inc[in][j] = base[in][j];
+		else if (base[in][j] > 0 && t9393[in][j] == 0 && t93fn[in][j] > 0)
+			fin_inc[in][j] = t93fn[in][j];
+		else if (base[in][j] > 0 && t9393[in][j] > 0 && t93fn[in][j] == 0)
+			fin_inc[in][j] = base[in][j];
+		else {
+			// incremental
+			increment = (int)(base[in][j] + delta);
+			//fin_inc[in][j]
+			// proportional
+			ratio = t93fn[in][j] / t9393[in][j];
+			prop = (int)(ratio * base[in][j]);
+
+			// inflexion
+			ratio = t93fn[in][j] / (base[in][j] + t93fn[in][j]);
+			inflex = (int)(base[in][j] * ratio);
+
+			if (increment > inflex)
+				fin_inc[in][j] = increment;
+			else if (inflex < prop) {
+				fin_inc[in][j] = inflex;
+				inc_flag[j] = -2;
+			}
+			else {
+				fin_inc[in][j] = prop;
+				inc_flag[j] = -1;
+			}
 		}
+		//if (fin_inc[in][j]<0 || (bin1<0 && abs_del>0.8*base[in][j]))
+		//{
+		//	inc_flag[j] = -1;
+		//	fin_inc[in][j] = prop;
+		//}
 
 		if (oneway_flag>0 && arr_oneway[oneway_flag][j]<0)
 			fin_inc[in][j] = 0;
@@ -168,16 +203,21 @@ void hand_adj(int num)
 	}
 	for (i = st; i <= endd; i++)
 	{
+		if (i == 164)
+			int test = 8;
 		flag = 0;
 		for (j = 1; j <= 4; j++)
 			err_level[j] = 0;
 		increment(i);
-		for (j = 1; j <= NTRNS; j++)
-		if (ok_flag[j] == -1)
-			flag = -1;
+		check(i);
+
+		for (j = 1; j <= NTRNS; j++) {
+			if (ok_flag[j] == -1)
+				flag = -1;
+		}
 		if (flag == -1)
 			err_level[1] = -1;
-		check(i);
+
 		if (flag == -1 || num != 0 || OPT == 1 || i_act[ctr_interact] == i)
 		{
 			if (OPT == 3 || OPT == 4)
@@ -199,21 +239,22 @@ void hand_adj(int num)
 				}
 			}
 			else
-				interact(i, flag);
+				interact(i, -1);
 		}
-		/*		else
-		{
-		if(i==i_act[ctr_interact])
-		ctr_interact++;
-		}
-		*/
+		/*#################################*/
+		//else
+		//{
+		//if(i==i_act[ctr_interact])
+		//ctr_interact++;
+		//}
+		
 
-		/*		else
+	/*			else
 		{
 		for(j=1;j<=NTRNS;j++)
 		final[i][j]=fin_inc[i][j];
-		}
-		*/
+		}*/
+		
 	}
 }
 
@@ -275,7 +316,7 @@ void interact(int in, int flg)
 			system("cls");
 			display(scrn_id, in);
 			printf("\n\nInput new values:\n");
-			scanf_s("%f %f %f %f %f %f %f %f %f %f %f %f", &final[in][1],
+			scanf_s("%lf %lf %lf %lf %lf %lf %lf %lf %lf %lf %lf %lf", &final[in][1],
 				&final[in][2], &final[in][3], &final[in][4], &final[in][5],
 				&final[in][6], &final[in][7], &final[in][8], &final[in][9],
 				&final[in][10], &final[in][11], &final[in][12]);
@@ -405,16 +446,16 @@ void main()
 	if (OPT == 5)
 	{
 		printf("\nEnter name of the output file: ");
-		scanf_s("%s", prnt_fname);
+		scanf_s("%s", prnt_fname, sizeof(prnt_fname));
 		fp_scrn = file_open(prnt_fname, "w");
 		fclose(fp_scrn);
 		printf("\n\nDo you have a list of intersections that need to be printed (y/n): ");
-		scanf_s("%s", answ);
+		scanf_s("%s", answ, sizeof(answ));
 		if (strcmp(answ, "y") == 0 || strcmp(answ, "Y") == 0)
 		{
 			scrn_id = 1;
 			printf("\n\nInput name of the file with this list: ");
-			scanf_s("%s", inp_fn);
+			scanf_s("%s", inp_fn, sizeof(inp_fn));
 			fp_temp = file_open(inp_fn, "r");
 
 			while (fscanf_s(fp_temp, "%d", &prnt_in) != EOF)
@@ -546,7 +587,7 @@ void read_fl4()
 	int i, j;
 	char dummy[200];
 	int dum;
-	int temp[13];
+	double temp[13];
 
 	for (i = 1; i <= 3; i++) {
 		fgets(dummy, sizeof(dummy), pt_frat);
@@ -557,7 +598,7 @@ void read_fl4()
 		fscanf_s(pt_frat, "%d", &dum);
 		//printf("%d ", dum);
 		for (j = 1; j <= 12; j++) {
-			if (fscanf_s(pt_frat, "%f", &temp[j]) == EOF)
+			if (fscanf_s(pt_frat, "%lf", &temp[j]) == EOF)
 				fratar[i][j] = 0;
 			else fratar[i][j] = temp[j];
 			//printf("%d ", temp[j]);
@@ -634,7 +675,7 @@ void display(int num, int in)
 	if (num == 2)
 	{
 		printf("\n\n\n\nDo you want to print this intersection(y/n/e:exit): ");
-		scanf_s("%s", answ);
+		scanf_s("%s", answ, sizeof(answ));
 		if (strcmp(answ, "y") == 0 || strcmp(answ, "Y") == 0)
 			scrn_id = 1;
 		else if (strcmp(answ, "e") == 0 || strcmp(answ, "E") == 0)
@@ -695,6 +736,8 @@ void tab_set(int i)
 	ito_a(for_tab, space6);
 	if (i != 0 && inc_flag[i] == -1)
 		strcat_s(space6, sizeof(space6), "*");
+	else if (i != 0 && inc_flag[i] == -2)
+		strcat_s(space6, sizeof(space6), "#");
 	setleng(space6, sizeof(space6), 6);
 	fprintf(fp_scrn, "%s", space6);
 }
@@ -817,7 +860,7 @@ void check(int in)
 	if (sigma_base == 0)
 	{
 		err_level[4] = -1;
-		flag = 0;
+		flag = -1;
 	}
 }
 
@@ -865,7 +908,7 @@ void optional()
 	{
 		system("cls");
 		printf("\n\nDo you want to check any particular intersection (y/n): ");
-		scanf_s("%s", ans);
+		scanf_s("%s", ans, sizeof(ans));
 		if (ans[0] == 'y' || ans[0] == 'Y')
 		{
 			check++;
