@@ -108,7 +108,7 @@ void increment(int in)
 		else if (base[in][j] > 0 && t9393[in][j] == 0 && t93fn[in][j] == 0)
 			fin_inc[in][j] = base[in][j];
 		else if (base[in][j] > 0 && t9393[in][j] == 0 && t93fn[in][j] > 0)
-			fin_inc[in][j] = t93fn[in][j];
+			fin_inc[in][j] = base[in][j];
 		else if (base[in][j] > 0 && t9393[in][j] > 0 && t93fn[in][j] == 0)
 			fin_inc[in][j] = base[in][j];
 		else {
@@ -281,7 +281,7 @@ void interact(int in, int flg)
 			return;
 		}
 		printf("\n\n\nSelect one of the four options:");
-		printf("\n\n1. Choose Incremental method");
+		printf("\n\n1. Choose Inc/Inflex/Prop method");
 		printf("\n2. Choose 93fn values");
 		printf("\n3. Choose Frater method");
 		printf("\n4. Enter new values for turns");
@@ -426,8 +426,8 @@ void main()
 	printf("\n\nChoose one of the following:\n\n");
 	printf("1. Stop at every intersection\n");
 	printf("2. Stop with intersections with errors\n");
-	printf("3. Choose Incremental whenever applicable and continue\n");
-	printf("4. Interactive Hand Adjustment for intersections listed in Input file\n");
+	printf("3. Choose Inc/Inflex/Prop whenever applicable and populate with counts of model values if data is missing\n");
+	printf("4. Same as Option 3, but stop at requested ID's. Use if you want to see how close volumes match for counts, ELEN, and ELFN. \n");
 	printf("5. Scan intersections for printing\n");
 	printf("\n\nChoose (1-5): ");
 	scanf_s("%d", &OPT);
@@ -631,13 +631,13 @@ void display(int num, int in)
 		for_tab = (int)base[in][j];
 		tab_set(0);
 	}
-	fprintf(fp_scrn, "\n9393\t");
+	fprintf(fp_scrn, "\nELEN\t");
 	for (j = 1; j <= 12; j++)
 	{
 		for_tab = (int)t9393[in][j];
 		tab_set(0);
 	}
-	fprintf(fp_scrn, "\n93fn\t");
+	fprintf(fp_scrn, "\nELFN\t");
 	for (j = 1; j <= 12; j++)
 	{
 		for_tab = (int)t93fn[in][j];
